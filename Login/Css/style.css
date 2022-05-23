@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Exo', sans-serif;
+    height: 100vh;
+}
+.Img_BG {
+    position: absolute;
+    width: 1494px;
+    height: 1062px;
+    right: 0px;
+    top: 0px;
+}
+
+.Login_Box {
+    position: absolute;
+    width: 462px;
+    height: 702px;
+    right: 100px;
+    top: 178px;
+    background: #303030;
+    background-blend-mode: overlay;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    transform: translate();
+}
+.prev {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 32px;
+    top: 509px;
+}
+.next {
+position: absolute;
+width: 43px;
+height: 43px;
+right: 32px;
+top: 552px;
+}
+
+.Logo {
+    position: absolute;
+    width: 322px;
+    height: 66px;
+    left: 39px;
+    top: 30px;
+}
+
+.Carrusel {
+    position: absolute;
+    width: 120px;
+    height: 27px;
+    left: 687px;
+    top: 995px;
+}

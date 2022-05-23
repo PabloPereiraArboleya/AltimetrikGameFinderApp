@@ -3,6 +3,9 @@
 <head> 
 <title>GAMEFINDER</title>
 <link rel="stylesheet" href="Css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
   <meta name="description" content="Aplicación para buscar juegos">
   <meta name="keywords" content="GAMEFINDER, ALTIMETRIK">
@@ -10,26 +13,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<!-- Carrusel contenedor -->
+<!-- Carrusel contenedor tutorial: https://www.w3schools.com/howto/howto_js_slideshow.asp --> 
 <div class="Carrusel-contenedor">
 
   <!-- Imagenes de fondo-->
-  <div class="Img BG"><!-- mySlides fade--><!-- La primer foto-->
+  <div class="Img_BG"><!-- mySlides fade--><!-- La primer foto-->
     <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" style="width:100%">
   </div>
-  <div hidden><!-- Las deje invisibles por el momento--><div class="Img BG"><!-- mySlides fade-->
+  <div hidden><!-- Las deje invisibles por el momento--><div class="Img_BG"><!-- mySlides fade-->
     <img src="https://images.unsplash.com/photo-1560252719-59e35a3bbc6d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740" style="width:100%">
   </div>
-  <div class="Img BG"><!-- mySlides fade-->
+  <div class="Img_BG"><!-- mySlides fade-->
     <img src="https://images.unsplash.com/photo-1542730251-bacb0e880133?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740" style="width:100%">
   </div>
-  <div class="Img BG"><!-- mySlides fade-->
+  <div class="Img_BG"><!-- mySlides fade-->
     <img src="https://images.unsplash.com/photo-1614294148960-9aa740632a87?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740" style="width:100%">
   </div>
-  <div class="Img BG"><!-- mySlides fade-->
+  <div class="Img_BG"><!-- mySlides fade-->
     <img src="https://images.unsplash.com/photo-1544652478-6653e09f18a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" style="width:100%">
   </div>
-  <div class="Img BG"><!-- mySlides fade-->
+  <div class="Img_BG"><!-- mySlides fade-->
     <img src="https://images.unsplash.com/photo-1519326844852-704caea5679e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1867&q=80" style="width:100%">
   </div></div>
   <!-- Botones Adelante y Atras -->
@@ -47,6 +50,7 @@
 <br>
 
 <!-- The dots/circles -->
+<div class="Carrusel">
 <div style="text-align:center">
   <svg width="120" height="27" viewBox="0 0 120 27" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="120" height="27" rx="13.5" fill="#515151"/>
@@ -57,6 +61,7 @@
     <circle opacity="0.25" cx="84.5" cy="13.5" r="3.5" fill="white"/>
     <circle opacity="0.25" cx="100.5" cy="13.5" r="3.5" fill="white"/>
     </svg>
+</div>
 </div>
 <!-- Logo -->
   <div class="Logo">
