@@ -3,27 +3,45 @@ body {
     padding: 0;
     background-size: cover;
     font-family: 'Exo', sans-serif;
-    height: 100vh;
+    width: 1494px;
+    height: 1062px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
 }
 .Img_BG {
-    position: absolute;
     width: 1494px;
     height: 1062px;
     right: 0px;
     top: 0px;
+    background-size: cover;
 }
 
 .Login_Box {
-    position: absolute;
     width: 462px;
     height: 702px;
-    right: 100px;
-    top: 178px;
-    background: #303030;
+    background: #0e0e11;
+    opacity: 90%;
     background-blend-mode: overlay;
     backdrop-filter: blur(10px);
     border-radius: 12px;
-    transform: translate();
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+.Login_Box > *:not(:first-child) {
+    position: relative;
 }
 .prev {
     position: absolute;
@@ -33,25 +51,194 @@ body {
     top: 509px;
 }
 .next {
-position: absolute;
+    position: absolute;
 width: 43px;
 height: 43px;
 right: 32px;
-top: 552px;
+top: 509px;
 }
 
 .Logo {
-    position: absolute;
     width: 322px;
-    height: 66px;
+    height: 115px;
     left: 39px;
     top: 30px;
+    align-items: center;
+    display: flex;
+    padding-left: 50px;
 }
 
 .Carrusel {
-    position: absolute;
-    width: 120px;
-    height: 27px;
-    left: 687px;
-    top: 995px;
+    width: 100%;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Login_Box h1 {
+height: 27px;
+left: 65.73%;
+right: 10.04%;
+top: calc(50% - 27px/2 - 299.5px);
+display: block;
+
+font-family: 'Exo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
+.Login_Box h2 {
+        width: 362px;
+        height: 28px;
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        text-align: center;
+        color: #FFFFFF;
+        left: 50px;
+        align-content: stretch;
+        justify-content: center;
+        bottom: 20px;
+ }
+
+.Login_Box_Container {
+    display: flex;
+    justify-content: right;
+}
+
+input[type="email" i]{
+    width: 452px;
+    height: 47px;
+    margin-bottom: 16px;
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10,57px;
+    padding-top: 10,58px;
+}
+
+input[type="password" i]{
+    width: 452px;
+    height: 47px;
+    display: flex;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10,57px;
+    padding-top: 10,58px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="submit" i] {
+    width: 452px;
+    height: 47px;
+    display: flex;
+    background: #4CC986;
+    border-radius: 6px;
+    border: none;
+    justify-content: space-around;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.btn {
+    height: 47px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.Social_Media_Login p {
+    padding-left: 21px;
+}
+
+.Rg {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    ext-decoration-line: none;
+}
+#Register {
+    text-decoration-line: none;
+    color: #5FE19B;
+    padding-left: 5.19px;
+
+}
+.CB {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-top: 13px;
+justify-content: center;
+font-family: 'Exo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+justify-content: space-between;
+padding-bottom: 24px;
+   
+}
+.F_P {
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-align: right;
+    color: #5FE19B;
+    text-decoration: none;
+
+}
+.H_L svg {
+    display: flex;
+    padding-bottom: 29.29;
+    width: 362px;
+    height: 19.71px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
 }
