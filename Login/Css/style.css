@@ -202,7 +202,7 @@ input[type="submit" i] {
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
-    ext-decoration-line: none;
+    text-decoration-line: none;
 }
 #Register {
     text-decoration-line: none;
