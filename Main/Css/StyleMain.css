@@ -1,11 +1,91 @@
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+html {
+    font-size: 16px;
   }
 
-  .body {
-      background-color: black;
+h2 {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+}
+
+
+.card_info {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    color: #939393;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: start;
+}
+
+.card {
+
+  background: #303030;
+  border-radius: 1.375rem;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+    width: 33%;
+    float: left;
+}
+
+.card_header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: stretch;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+.card_content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.125rem;
+}
+.card_number {
+    text-align: right;
+    color: #36B972;
+    font-size: 1.125rem;
+  }
+
+.card_title {
+    font-size: 1.5 rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+  .Date  {
+    font-weight: 400;
+    font-size: 0.875rem;  
+    color: #FFFFFF;
+  }
+
+  .Genres  {
+    font-weight: 400;
+    font: size 0.875rem;;  
+    color: #FFFFFF;
+
   }
