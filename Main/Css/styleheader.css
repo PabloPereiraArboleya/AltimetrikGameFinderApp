@@ -1,0 +1,62 @@
+header {
+    background: linear-gradient(180deg, #5fe19b 0%, #36B972 50%, #0EA152 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 23px;
+}
+.Logo {
+    width: 293px;
+    height: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.log_out {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    padding-right: 16px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 40px;
+    align-items: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #939393;
+    width: 100%;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 362px;
+    height: 47px;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.wrapper_searchbar {
+    display: flex;
+    align-items: center;
+}
