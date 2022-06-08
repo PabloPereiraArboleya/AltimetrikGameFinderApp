@@ -60,3 +60,68 @@ input {
     display: flex;
     align-items: center;
 }
+
+section {
+    background: #151515
+}
+
+.title_text_bh {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+.p_text_bh {
+font-family: 'Exo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 0px;
+color: #FFFFFF;
+}
+
+.dark_mode {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.info_below_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 19px 27px 0px 27px;
+}
+
+.cambio_vista {
+    display: flex;
+    align-items: center;
+}
+
+.text_bh {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right_below_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.disabled {
+    padding-left: 24px;
+}
+
+.dm {
+    padding-left: 13px;
+}
